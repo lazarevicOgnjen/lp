@@ -2,7 +2,7 @@ name: lp bot
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Run every minute
+    - cron: '*/30 * * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
